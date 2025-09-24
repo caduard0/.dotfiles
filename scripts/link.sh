@@ -5,6 +5,7 @@
 # Files
 ln -fs ~/.dotfiles/.zshrc ~/.zshrc
 ln -fs ~/.dotfiles/.gitconfig ~/.gitconfig
+ln -fs ~/.dotfiles/.gtkrc-2.0 ~/.gtkrc-2.0
 
 # Directories
 mkdir -p ~/.config/hypr

@@ -13,4 +13,5 @@ nwg-look
 papirus-icon-theme
 papirus-folders
 zsh
+oh-my-zsh
 wl-clipboard
