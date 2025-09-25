@@ -20,3 +20,5 @@ mkdir -p ~/.config/gtk-4.0
 ln -fs ~/.dotfiles/gtk-4.0/* ~/.config/gtk-4.0/
 mkdir -p ~/.config/xsettingsd
 ln -fs ~/.dotfiles/xsettingsd/* ~/.config/xsettingsd/
+mkdir -p ~/.config/nvim
+ln -fs ~/.dotfiles/nvim/* ~/.config/nvim/

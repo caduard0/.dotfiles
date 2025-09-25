@@ -7,3 +7,5 @@ cd /tmp/Graphite-gtk-theme
 ./install.sh -c dark -s standard -l --tweaks black rimless
 
 papirus-folders -C black
+
+swww img disco-thoughtcabinet-wallpaper-4k.png
