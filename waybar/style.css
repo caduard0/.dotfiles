@@ -46,10 +46,11 @@ button:hover {
 
 #workspaces button {
     transition: 0.1s ease-in-out;
-    padding: 0 5px;
+    padding: 0 7px;
     background-color: transparent;
-    color: #ffffff;
-    border-radius: 10px;
+    color: #E5D0AC;
+	border: 2px solid black;
+    border-radius: 100px;
     
 }
 
@@ -67,7 +68,7 @@ button:hover {
 }
 
 #workspaces button.active {
-    background-color: #FFFFFF;
+    background-color: #E5D0AC;
     color: #000000;
 }
 
@@ -96,6 +97,8 @@ button:hover {
     padding: 0 15px;
     color: #000000;
     margin: 0 5px;
+
+	border: 2px solid black;
 }
 
 #window,
