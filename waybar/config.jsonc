@@ -15,10 +15,10 @@
     "modules-center": [
         "pulseaudio",
         "network",
-        "cpu",
-        "memory",
+        //"cpu",
+        //"memory",
         "temperature",
-        "backlight",
+        // "backlight",
         "battery",
         "clock",
         "power-profiles-daemon"
