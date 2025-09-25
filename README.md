@@ -1,2 +1,4 @@
 # dotfiles
-download and run install.sh (probably won't work)
+run archinstall with hyprland, and git
+
+clone in /home and run install.sh (probably won't work)
