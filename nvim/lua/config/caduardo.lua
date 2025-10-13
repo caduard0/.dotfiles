@@ -4,3 +4,4 @@ vim.g.maplocalleader = "\\"
 require("config.lazy")
 require("config.editor")
 require("config.maps")
+require("config.mason")

@@ -72,12 +72,19 @@ nvimcmp.config = function()
 	-- Set up lspconfig.
 	local capabilities = require('cmp_nvim_lsp').default_capabilities()
 	-- Replace <YOUR_LSP_SERVER> with each lsp server you've enabled.
-	require'lspconfig'['lua_ls'].setup { capabilities = capabilities }
-	require'lspconfig'['rust_analyzer'].setup { capabilities = capabilities }
-	require'lspconfig'['clangd'].setup { capabilities = capabilities }
-	require'lspconfig'['cmake'].setup { capabilities = capabilities }
-	require'lspconfig'['texlab'].setup { capabilities = capabilities }
-	require'lspconfig'['pyright'].setup { capabilities = capabilities }
+
+	local mason = require('plugins.mason');
+	mason.setup_capabilities(capabilities);
+	
+--	vim.lsp.config('lua_ls', { capabilities = capabilities })
+--	vim.lsp.config('rust_analyzer', { capabilities = capabilities })
+--	vim.lsp.config('clangd', { capabilities = capabilities })
+--	vim.lsp.config('cmake', { capabilities = capabilities })
+--	vim.lsp.config('texlab' , { capabilities = capabilities })
+--	vim.lsp.config('pyright', { capabilities = capabilities })
+--	vim.lsp.config('jdtls', { capabilities = capabilities })
+--	vim.lsp.config('glsl_analyzer', { capabilities = capabilities })
+--	vim.lsp.config('slang', { capabilities = capabilities })
 end
 
 
