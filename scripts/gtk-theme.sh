@@ -8,4 +8,4 @@ cd /tmp/Graphite-gtk-theme
 
 papirus-folders -C black
 
-swww img disco-thoughtcabinet-wallpaper-4k.png
+swww img ~/.dotfiles/disco-thoughtcabinet-wallpaper-4k.png
